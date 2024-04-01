@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package core;
+package core.person;
 
 /**
  *
@@ -16,6 +16,15 @@ public abstract class Persona {
         this.nombre = nombre;
         this.cedula = cedula;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCedula() {
+        return cedula;
+    }
+    
     
     
 }

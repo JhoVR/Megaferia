@@ -2,21 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package core;
+package core.person;
 
-import java.util.ArrayList;
+import core.megaferia.Editorial;
 
 /**
  *
  * @author jregalado
  */
-public class Narrador extends Persona{
-    private ArrayList<Libro> libros;
+public class Gerente extends Persona{
+    private Editorial editorial;
 
-    public Narrador(ArrayList<Libro> libros, String nombre, int cedula) {
+    public Gerente(Editorial editorial, String nombre, int cedula) {
         super(nombre, cedula);
-        this.libros = libros;
+        this.editorial = editorial;
     }
-    
     
 }
