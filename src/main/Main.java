@@ -7,5 +7,7 @@ public class Main {
         int rew=3;
         System.out.println((rew<<1)==asd);
         System.out.println("Test:Conflict");
+        System.out.println("Hello World");
+        System.out.println("Test for conflict");
     }
 }

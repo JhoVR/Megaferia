@@ -20,6 +20,18 @@ public class Stand {
         this.precio = precio;
         editoriales = new ArrayList<Editorial>();
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public float getPrecio() {
+        return precio;
+    }
+
+    public ArrayList<Editorial> getEditoriales() {
+        return editoriales;
+    }
     
     
 }
