@@ -2,8 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package core;
+package core.book;
 
+import core.person.Autor;
+import core.megaferia.Editorial;
 import java.util.ArrayList;
 
 /**
@@ -27,6 +29,34 @@ public abstract class Libro {
         this.formato = formato;
         this.valor = valor;
         this.editorial = editorial;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public ArrayList<Autor> getAutores() {
+        return autores;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public String getFormato() {
+        return formato;
+    }
+
+    public float getValor() {
+        return valor;
+    }
+
+    public Editorial getEditorial() {
+        return editorial;
     }
     
     
