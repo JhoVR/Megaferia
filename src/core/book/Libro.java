@@ -30,6 +30,34 @@ public abstract class Libro {
         this.valor = valor;
         this.editorial = editorial;
     }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public ArrayList<Autor> getAutores() {
+        return autores;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public String getFormato() {
+        return formato;
+    }
+
+    public float getValor() {
+        return valor;
+    }
+
+    public Editorial getEditorial() {
+        return editorial;
+    }
     
     
 }
